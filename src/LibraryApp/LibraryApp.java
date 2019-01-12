@@ -33,8 +33,7 @@ public class LibraryApp {
 			System.out.println("\n3.Search Book to the Library");
 			System.out.println("\n4.Delete Book");
 			System.out.println("\n5.Add new book copies");
-			System.out.println("\n6.Edit informations");
-			System.out.println("\n7.Show Library Info");
+			System.out.println("\n6.Show Library Info");
 			System.out.println("\n0.Press 0 to  exit");
 
 			@SuppressWarnings("resource")
@@ -159,7 +158,7 @@ public class LibraryApp {
 				}
 				break;
 
-			case 7:
+			case 6:
 
 				if (LibraryIO.isExist(LIBDATAPATH)) {
 
